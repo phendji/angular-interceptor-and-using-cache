@@ -11,7 +11,8 @@ const config = {
 };
 
 const latencies = {
-    technologyLists: 0
+    technologyLists: 0,
+    login: 0
 }
 
 

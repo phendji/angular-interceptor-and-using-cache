@@ -1,0 +1,15 @@
+<h3> Authentication</h3>
+<form #monForm=ngForm (ngSubmit)=login()>
+  <div>
+    Email : <input type=text name=email [(ngModel)]=user.email required>
+  </div>
+  <div>
+    Mot de passe : <input type=text name=password [(ngModel)]=user.password required>
+  </div>
+  <div>
+    <button>
+      connexion
+    </button>
+    <h4>{{messages}}</h4>
+  </div>
+</form>

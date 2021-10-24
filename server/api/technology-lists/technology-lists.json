@@ -1,13 +1,16 @@
 [
   {
+    "id": "ts",
     "language": "TypeScript",
     "version": "4.2"
   },
   {
+    "id": "node",
     "language": "NodeJS",
     "version": "14.0"
   },
   {
+    "id": "npm",
     "language": "Nuget Package Manager",
     "version": "6.13.4"
   }
